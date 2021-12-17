@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C95AC78276B1AF80002629C /* AddListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95AC77276B1AF80002629C /* AddListModel.swift */; };
+		9C95AC7A276B43D80002629C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95AC79276B43D80002629C /* CalendarViewController.swift */; };
+		9CA1697A27682CC600EAE6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1697927682CC600EAE6C1 /* AppDelegate.swift */; };
+		9CA1697C27682CC600EAE6C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1697B27682CC600EAE6C1 /* SceneDelegate.swift */; };
+		9CA1697E27682CC600EAE6C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1697D27682CC600EAE6C1 /* ViewController.swift */; };
+		9CA1698127682CC600EAE6C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1697F27682CC600EAE6C1 /* Main.storyboard */; };
+		9CA1698327682CC900EAE6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1698227682CC900EAE6C1 /* Assets.xcassets */; };
+		9CA1698627682CC900EAE6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA1698427682CC900EAE6C1 /* LaunchScreen.storyboard */; };
+		9CA1699127682CC900EAE6C1 /* leiharuappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1699027682CC900EAE6C1 /* leiharuappTests.swift */; };
+		9CA1699B27682CC900EAE6C1 /* leiharuappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1699A27682CC900EAE6C1 /* leiharuappUITests.swift */; };
+		9CA1699D27682CC900EAE6C1 /* leiharuappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1699C27682CC900EAE6C1 /* leiharuappUITestsLaunchTests.swift */; };
+		9CA3DE51276C0E7100374B74 /* IconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3DE50276C0E7100374B74 /* IconViewController.swift */; };
+		9CA3DE53276C68BF00374B74 /* ThenAddListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3DE52276C68BF00374B74 /* ThenAddListModel.swift */; };
+		9CA91F81276B6B36003E3826 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA91F80276B6B36003E3826 /* EventModel.swift */; };
+		9CF4318B2768DA3700EC3010 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4318A2768DA3700EC3010 /* ListViewController.swift */; };
+		DE4FF336BF6ACA694ABFCB57 /* Pods_leiharuapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79CF276C3AD69FBD866125B /* Pods_leiharuapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CA1698D27682CC900EAE6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA1696E27682CC600EAE6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA1697527682CC600EAE6C1;
+			remoteInfo = leiharuapp;
+		};
+		9CA1699727682CC900EAE6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA1696E27682CC600EAE6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA1697527682CC600EAE6C1;
+			remoteInfo = leiharuapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B224F27AD01B9D776F2C75C /* Pods-leiharuapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leiharuapp.release.xcconfig"; path = "Target Support Files/Pods-leiharuapp/Pods-leiharuapp.release.xcconfig"; sourceTree = "<group>"; };
+		9C95AC77276B1AF80002629C /* AddListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListModel.swift; sourceTree = "<group>"; };
+		9C95AC79276B43D80002629C /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		9CA1697627682CC600EAE6C1 /* leiharuapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leiharuapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA1697927682CC600EAE6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CA1697B27682CC600EAE6C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9CA1697D27682CC600EAE6C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CA1698027682CC600EAE6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CA1698227682CC900EAE6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA1698527682CC900EAE6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CA1698727682CC900EAE6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA1698C27682CC900EAE6C1 /* leiharuappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leiharuappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA1699027682CC900EAE6C1 /* leiharuappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leiharuappTests.swift; sourceTree = "<group>"; };
+		9CA1699627682CC900EAE6C1 /* leiharuappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leiharuappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA1699A27682CC900EAE6C1 /* leiharuappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leiharuappUITests.swift; sourceTree = "<group>"; };
+		9CA1699C27682CC900EAE6C1 /* leiharuappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leiharuappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CA3DE50276C0E7100374B74 /* IconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViewController.swift; sourceTree = "<group>"; };
+		9CA3DE52276C68BF00374B74 /* ThenAddListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThenAddListModel.swift; sourceTree = "<group>"; };
+		9CA91F80276B6B36003E3826 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		9CF4318A2768DA3700EC3010 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		BDA9485E487A48066E7B18A8 /* Pods-leiharuapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leiharuapp.debug.xcconfig"; path = "Target Support Files/Pods-leiharuapp/Pods-leiharuapp.debug.xcconfig"; sourceTree = "<group>"; };
+		D79CF276C3AD69FBD866125B /* Pods_leiharuapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_leiharuapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA1697327682CC600EAE6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4FF336BF6ACA694ABFCB57 /* Pods_leiharuapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1698927682CC900EAE6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1699327682CC900EAE6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70B3956F8E1F7C979EF59334 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDA9485E487A48066E7B18A8 /* Pods-leiharuapp.debug.xcconfig */,
+				9B224F27AD01B9D776F2C75C /* Pods-leiharuapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9CA1696D27682CC600EAE6C1 = {
+			isa = PBXGroup;
+			children = (
+				9CA1697827682CC600EAE6C1 /* leiharuapp */,
+				9CA1698F27682CC900EAE6C1 /* leiharuappTests */,
+				9CA1699927682CC900EAE6C1 /* leiharuappUITests */,
+				9CA1697727682CC600EAE6C1 /* Products */,
+				70B3956F8E1F7C979EF59334 /* Pods */,
+				E28099CDB879B7D06C03CB65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA1697727682CC600EAE6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1697627682CC600EAE6C1 /* leiharuapp.app */,
+				9CA1698C27682CC900EAE6C1 /* leiharuappTests.xctest */,
+				9CA1699627682CC900EAE6C1 /* leiharuappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA1697827682CC600EAE6C1 /* leiharuapp */ = {
+			isa = PBXGroup;
+			children = (
+				9CA3DE52276C68BF00374B74 /* ThenAddListModel.swift */,
+				9CA1697927682CC600EAE6C1 /* AppDelegate.swift */,
+				9C95AC77276B1AF80002629C /* AddListModel.swift */,
+				9CA91F80276B6B36003E3826 /* EventModel.swift */,
+				9CA1697B27682CC600EAE6C1 /* SceneDelegate.swift */,
+				9CA1697D27682CC600EAE6C1 /* ViewController.swift */,
+				9C95AC79276B43D80002629C /* CalendarViewController.swift */,
+				9CF4318A2768DA3700EC3010 /* ListViewController.swift */,
+				9CA1697F27682CC600EAE6C1 /* Main.storyboard */,
+				9CA3DE50276C0E7100374B74 /* IconViewController.swift */,
+				9CA1698227682CC900EAE6C1 /* Assets.xcassets */,
+				9CA1698427682CC900EAE6C1 /* LaunchScreen.storyboard */,
+				9CA1698727682CC900EAE6C1 /* Info.plist */,
+			);
+			path = leiharuapp;
+			sourceTree = "<group>";
+		};
+		9CA1698F27682CC900EAE6C1 /* leiharuappTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1699027682CC900EAE6C1 /* leiharuappTests.swift */,
+			);
+			path = leiharuappTests;
+			sourceTree = "<group>";
+		};
+		9CA1699927682CC900EAE6C1 /* leiharuappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1699A27682CC900EAE6C1 /* leiharuappUITests.swift */,
+				9CA1699C27682CC900EAE6C1 /* leiharuappUITestsLaunchTests.swift */,
+			);
+			path = leiharuappUITests;
+			sourceTree = "<group>";
+		};
+		E28099CDB879B7D06C03CB65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D79CF276C3AD69FBD866125B /* Pods_leiharuapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA1697527682CC600EAE6C1 /* leiharuapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA169A027682CC900EAE6C1 /* Build configuration list for PBXNativeTarget "leiharuapp" */;
+			buildPhases = (
+				59E6268847A1419A64700913 /* [CP] Check Pods Manifest.lock */,
+				9CA1697227682CC600EAE6C1 /* Sources */,
+				9CA1697327682CC600EAE6C1 /* Frameworks */,
+				9CA1697427682CC600EAE6C1 /* Resources */,
+				3CD5CB64C7F2692AF0C538BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leiharuapp;
+			productName = leiharuapp;
+			productReference = 9CA1697627682CC600EAE6C1 /* leiharuapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CA1698B27682CC900EAE6C1 /* leiharuappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA169A327682CC900EAE6C1 /* Build configuration list for PBXNativeTarget "leiharuappTests" */;
+			buildPhases = (
+				9CA1698827682CC900EAE6C1 /* Sources */,
+				9CA1698927682CC900EAE6C1 /* Frameworks */,
+				9CA1698A27682CC900EAE6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA1698E27682CC900EAE6C1 /* PBXTargetDependency */,
+			);
+			name = leiharuappTests;
+			productName = leiharuappTests;
+			productReference = 9CA1698C27682CC900EAE6C1 /* leiharuappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CA1699527682CC900EAE6C1 /* leiharuappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA169A627682CC900EAE6C1 /* Build configuration list for PBXNativeTarget "leiharuappUITests" */;
+			buildPhases = (
+				9CA1699227682CC900EAE6C1 /* Sources */,
+				9CA1699327682CC900EAE6C1 /* Frameworks */,
+				9CA1699427682CC900EAE6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA1699827682CC900EAE6C1 /* PBXTargetDependency */,
+			);
+			name = leiharuappUITests;
+			productName = leiharuappUITests;
+			productReference = 9CA1699627682CC900EAE6C1 /* leiharuappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA1696E27682CC600EAE6C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9CA1697527682CC600EAE6C1 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					9CA1698B27682CC900EAE6C1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9CA1697527682CC600EAE6C1;
+					};
+					9CA1699527682CC900EAE6C1 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9CA1697527682CC600EAE6C1;
+					};
+				};
+			};
+			buildConfigurationList = 9CA1697127682CC600EAE6C1 /* Build configuration list for PBXProject "leiharuapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA1696D27682CC600EAE6C1;
+			productRefGroup = 9CA1697727682CC600EAE6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA1697527682CC600EAE6C1 /* leiharuapp */,
+				9CA1698B27682CC900EAE6C1 /* leiharuappTests */,
+				9CA1699527682CC900EAE6C1 /* leiharuappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA1697427682CC600EAE6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1698627682CC900EAE6C1 /* LaunchScreen.storyboard in Resources */,
+				9CA1698327682CC900EAE6C1 /* Assets.xcassets in Resources */,
+				9CA1698127682CC600EAE6C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1698A27682CC900EAE6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1699427682CC900EAE6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CD5CB64C7F2692AF0C538BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-leiharuapp/Pods-leiharuapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-leiharuapp/Pods-leiharuapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-leiharuapp/Pods-leiharuapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59E6268847A1419A64700913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-leiharuapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA1697227682CC600EAE6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C95AC7A276B43D80002629C /* CalendarViewController.swift in Sources */,
+				9CA91F81276B6B36003E3826 /* EventModel.swift in Sources */,
+				9CA3DE51276C0E7100374B74 /* IconViewController.swift in Sources */,
+				9CA1697E27682CC600EAE6C1 /* ViewController.swift in Sources */,
+				9CA3DE53276C68BF00374B74 /* ThenAddListModel.swift in Sources */,
+				9CA1697A27682CC600EAE6C1 /* AppDelegate.swift in Sources */,
+				9C95AC78276B1AF80002629C /* AddListModel.swift in Sources */,
+				9CF4318B2768DA3700EC3010 /* ListViewController.swift in Sources */,
+				9CA1697C27682CC600EAE6C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1698827682CC900EAE6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1699127682CC900EAE6C1 /* leiharuappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA1699227682CC900EAE6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA1699B27682CC900EAE6C1 /* leiharuappUITests.swift in Sources */,
+				9CA1699D27682CC900EAE6C1 /* leiharuappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CA1698E27682CC900EAE6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA1697527682CC600EAE6C1 /* leiharuapp */;
+			targetProxy = 9CA1698D27682CC900EAE6C1 /* PBXContainerItemProxy */;
+		};
+		9CA1699827682CC900EAE6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA1697527682CC600EAE6C1 /* leiharuapp */;
+			targetProxy = 9CA1699727682CC900EAE6C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CA1697F27682CC600EAE6C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA1698027682CC600EAE6C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CA1698427682CC900EAE6C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CA1698527682CC900EAE6C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CA1699E27682CC900EAE6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CA1699F27682CC900EAE6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA169A127682CC900EAE6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA9485E487A48066E7B18A8 /* Pods-leiharuapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = leiharuapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smile.leiharuapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CA169A227682CC900EAE6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B224F27AD01B9D776F2C75C /* Pods-leiharuapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = leiharuapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smile.leiharuapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CA169A427682CC900EAE6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smile.leiharuappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leiharuapp.app/leiharuapp";
+			};
+			name = Debug;
+		};
+		9CA169A527682CC900EAE6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smile.leiharuappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leiharuapp.app/leiharuapp";
+			};
+			name = Release;
+		};
+		9CA169A727682CC900EAE6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smile.leiharuappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leiharuapp;
+			};
+			name = Debug;
+		};
+		9CA169A827682CC900EAE6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smile.leiharuappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leiharuapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA1697127682CC600EAE6C1 /* Build configuration list for PBXProject "leiharuapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA1699E27682CC900EAE6C1 /* Debug */,
+				9CA1699F27682CC900EAE6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA169A027682CC900EAE6C1 /* Build configuration list for PBXNativeTarget "leiharuapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA169A127682CC900EAE6C1 /* Debug */,
+				9CA169A227682CC900EAE6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA169A327682CC900EAE6C1 /* Build configuration list for PBXNativeTarget "leiharuappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA169A427682CC900EAE6C1 /* Debug */,
+				9CA169A527682CC900EAE6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA169A627682CC900EAE6C1 /* Build configuration list for PBXNativeTarget "leiharuappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA169A727682CC900EAE6C1 /* Debug */,
+				9CA169A827682CC900EAE6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA1696E27682CC600EAE6C1 /* Project object */;
+}
